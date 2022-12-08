@@ -1,0 +1,8 @@
+#!/bin/bash
+g++ JasonsPub.cpp -o JasonsPub -lpaho-mqtt3c
+g++ MikesPub.cpp -o MikesPub -lpaho-mqtt3c
+g++ KyliesPub.cpp -o KyliesPub -lpaho-mqtt3c
+g++ RachelsPub.cpp -o RachelsPub -lpaho-mqtt3c
+g++ ZebinsPub.cpp -o ZebinsPub -lpaho-mqtt3c
+
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+counter=0
+while [ $counter -lt 10 ]
+do
+./JasonsPub
+./MikesPub
+./ZebinsPub
+./RachelsPub
+./KyliesPub
+sleep 16
+echo "Publishing To Mike"
+((counter++))
+done
